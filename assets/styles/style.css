@@ -1,0 +1,48 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 30px;
+
+  border: 1px solid darkgreen;
+  background-color: darkgreen;
+
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-right: 10px;
+  font-weight: 700;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  color: darkgreen;
+  margin-left: 10px;
+  margin-bottom: 0;
+  font-weight: 800;
+}
+
+hr {
+  margin-top: 0;
+}
+
+.home-text,
+.services-text1,
+.services-text2 {
+  margin: 30px 10px 30px 5px;
+  letter-spacing: 0.8px;
+  text-align: justify;
+}
