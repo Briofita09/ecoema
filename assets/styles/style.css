@@ -24,8 +24,9 @@ a {
 
 .logo {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px auto;
+  position: relative;
+  height: 100px;
 }
 
 h1 {
@@ -55,4 +56,41 @@ hr {
   margin-left: 5%;
   margin-bottom: 30px;
   list-style: disc;
+}
+.one {
+  width: 400px;
+  height: 15px;
+  background: green;
+  position: absolute;
+  top: 90%;
+  left: 45%;
+  z-index: 2;
+}
+.two {
+  width: 400px;
+  height: 15px;
+  background: green;
+  position: absolute;
+  top: 73%;
+  left: 45%;
+  z-index: 2;
+}
+.half-circle {
+  width: 200px;
+  height: 100px;
+  background-color: gold;
+  border-top-left-radius: 110px;
+  border-top-right-radius: 110px;
+  border-bottom: 0;
+  position: absolute;
+  top: -20%;
+  left: 52%;
+  z-index: 1;
+}
+.text {
+  position: absolute;
+  top: 44%;
+  left: 56%;
+  z-index: 2;
+  text-align: center;
 }
