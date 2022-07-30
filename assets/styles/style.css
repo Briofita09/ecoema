@@ -46,3 +46,13 @@ hr {
   letter-spacing: 0.8px;
   text-align: justify;
 }
+
+.italic {
+  font-style: italic;
+}
+
+.unordered-list {
+  margin-left: 5%;
+  margin-bottom: 30px;
+  list-style: disc;
+}
